@@ -1,4 +1,4 @@
-# Magical-Literary-Heroine-Natsuki-Saves-The-Literature-Club-Vita
+# Magical Literary Heroine Natsuki Saves The Literature Club! / Port  for PSVita
 Port of the Doki Doki Literature Club MOD "Magical Literary Heroine Natsuki Saves The Literature Club!" for PSVita
 
 Created using the [renpy-vita tool](https://github.com/SonicMastr/renpy-vita) & the [DDLC port](https://github.com/SonicMastr/Doki-Doki-Literature-Club-Vita) made by [SonicMastr](https://github.com/SonicMastr).
