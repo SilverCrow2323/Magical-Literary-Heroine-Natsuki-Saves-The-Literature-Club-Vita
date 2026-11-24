@@ -8,6 +8,9 @@ _Original game_: https://store.steampowered.com/app/698780/Doki_Doki_Literature_
 
 _Mod homepage_: https://www.mlhnstlc.com/
 
-## 📚 Practical Wiki
 
-The [GitHub Wiki](https://github.com/SilverCrow2323/Magical-Literary-Heroine-Natsuki-Saves-The-Literature-Club-Vita/wiki) covers sources, release-specific installation notes and troubleshooting. The tracked source is in [wiki-source/](wiki-source/); publish with `sh tools/publish_wiki.sh`.
+## Central Ren'Py Vita catalogue
+
+The shared catalogue, compatibility notes and installation/testing documentation are maintained in the [Ren'Py Vita Hub](https://silvercrow2323.github.io/renpy-psvita-ports/). See the [title sheet](https://github.com/SilverCrow2323/renpy-psvita-ports/blob/main/docs/_games/natsuki-saves-literature-club.md) and [community porting guide](https://github.com/SilverCrow2323/renpy-psvita-ports/blob/main/docs/PORTING-GUIDES.md). The title-ID path is intentionally not guessed; check release notes.
+
+If the public Pages site is not yet enabled, use the [versioned documentation source](https://github.com/SilverCrow2323/renpy-psvita-ports/tree/main/docs).
