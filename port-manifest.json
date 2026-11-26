@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "port_id": "magical-literary-heroine-natsuki",
+  "title": "Magical Literary Heroine Natsuki Saves the Literature Club!",
+  "repository": "https://github.com/SilverCrow2323/Magical-Literary-Heroine-Natsuki-Saves-The-Literature-Club-Vita",
+  "platform": "psvita",
+  "engine": "renpy",
+  "status": "experimental",
+  "original_game_url": "https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/",
+  "docs_path": "docs/ports/magical-literary-heroine-natsuki/README.md",
+  "notes": "Mod homepage: https://www.mlhnstlc.com/. Title ID and final installation path are not asserted."
+}
