@@ -49,7 +49,7 @@ def validate()->list[str]:
                 elif not target.is_file(): errors.append(f"Referenced LiveArea asset is missing: {ref}")
         except (ET.ParseError,OSError,ValueError) as exc: errors.append(f"Invalid LiveArea XML: {exc}")
     if title_id:
-        docs=[p for p in (ROOT/"README.md",ROOT/"readme.md") if p.is_file()]
+        docs=[p for p in (ROOT/"README.md",ROOT/"readme.md",ROOT/"docs"/"INSTALLATION.md") if p.is_file()]
         docs += [p for p in (ROOT/"wiki-source").glob("Installation*.md") if p.is_file()]
         ids=set()
         for doc in docs: ids.update(TITLE_ID_RE.findall(doc.read_text(encoding="utf-8")))
