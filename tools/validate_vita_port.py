@@ -5,7 +5,7 @@ import re, struct, sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-TITLE_ID_RE=re.compile(r"ux0:/?app/([A-Z0-9]{9})(?:/|\\b)")
+TITLE_ID_RE=re.compile(r"ux0:/?app/([A-Z0-9]{9})(?:/|\b)")
 def read_sfo(path:Path)->dict[str,str]:
     data=path.read_bytes()
     if len(data)<20: raise ValueError("param.sfo is shorter than its header")
